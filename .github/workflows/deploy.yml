@@ -1,0 +1,25 @@
+name: Deploy
+
+on:
+  push:
+    branches: [deploy]
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish the deploy branch to the site bucket
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: ${{ secrets.AWS_REGION }}
+          BUCKET: ${{ secrets.AWS_DEPLOY_BUCKET }}
+        run: |
+          if [ -z "$BUCKET" ] || [ -z "$AWS_ACCESS_KEY_ID" ]; then
+            echo "AWS deploy secrets are not on this repository yet."
+            exit 0
+          fi
+          aws s3 sync . "s3://$BUCKET" --delete --exclude ".git/*" --exclude ".github/*"
+          echo "Published to s3://$BUCKET"
