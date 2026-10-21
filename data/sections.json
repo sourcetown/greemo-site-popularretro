@@ -1,0 +1,89 @@
+{
+  "hero": {
+    "kicker": "Where old is always fashionable",
+    "title": "Welcome back…",
+    "accent": "to the past!",
+    "lede": "We like music that crackles, movies with a fuzzy border, games that take an hour to load and then crash. In fact, we love the old stuff so much, we created a magazine about it!",
+    "sticker": "Now in print!",
+    "covers": [
+      "special-edition-1",
+      "v2-issue-1"
+    ]
+  },
+  "ticker": [
+    "Gaming",
+    "Movies",
+    "Music",
+    "Toys",
+    "Culture",
+    "Comics",
+    "B-movies"
+  ],
+  "latest": {
+    "slug": "v2-issue-1",
+    "kicker": "Latest issue · Volume 2, Issue 1 · June 2021",
+    "lede": "Popular Retro lands with a brand-new issue and for the first time, we're also available in print! A massive retrospective of the Philips CD-i, and the Sinclair ZX81 turns 40."
+  },
+  "special": {
+    "slug": "special-edition-1",
+    "kicker": "Collector's hardback · 136 pages",
+    "title": "Special Edition #1",
+    "lede": "Select cuts of issues one to four of Popular Retro plus issue five, in one beautiful hardback book.",
+    "text": "Extensive coverage of THEC64, THEVIC20 and THEC64 Mini. Also, nostalgic food, toys and culture from yesteryear, from ice lollies to Top Trumps.",
+    "gap": "Amazon lists it as unavailable. Still on sale?"
+  },
+  "backIssues": {
+    "kicker": "The story so far",
+    "title": "Back issues",
+    "text": "Issues one to five began as free digital editions, and the best of them now live on in Special Edition #1.",
+    "group": "digital",
+    "issues": [
+      "issue-1",
+      "issue-2",
+      "issue-3",
+      "issue-4",
+      "issue-5"
+    ]
+  },
+  "writers": {
+    "kicker": "Writers wanted",
+    "title": "Popular Retro needs you",
+    "lede": "Are you a writer, do you have a passion for retro? Join our family of creators bringing quality retro content to a worldwide audience.",
+    "topics": [
+      "Obscure media formats",
+      "Retro toys and video gaming",
+      "Sci-fi, horror and B-movies",
+      "Music and artists",
+      "Fashion and culture"
+    ]
+  },
+  "newsletter": {
+    "kicker": "Want news?",
+    "title": "Hear about the next issue first",
+    "text": "No spam, no junk and no nonsense. We'll let you know about the next issue only. Trust us, we hate junk mail!",
+    "action": null,
+    "gap": "Mailchimp form action from Jan (old list 089823fe38 on account popularretromagazine)"
+  },
+  "contact": {
+    "socials": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/PopularRetroMag"
+      },
+      {
+        "label": "X / Twitter",
+        "url": "https://twitter.com/PopularRetro",
+        "handle": "@PopularRetro"
+      }
+    ],
+    "email": null,
+    "pitchTopics": [
+      "Obscure media formats (Betamax, laserdisc, CED, 8-track and more)",
+      "Retro toys and video gaming",
+      "Sci-fi, horror and B-movies",
+      "Music and artists",
+      "Fashion and culture",
+      "…and anything you feel would interest our audience"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "dataDelivery": "static",
+  "collections": {
+    "sections": {
+      "source": "json",
+      "url": "/data/sections.json"
+    },
+    "projects": {
+      "source": "json",
+      "url": "/data/projects.json"
+    }
+  }
+}
