@@ -1,0 +1,99 @@
+{
+  "name": "writers-band",
+  "displayName": "Writers band",
+  "description": "Red band with the Needs YOU poster. As a page hero (pageHero) it uses an h1 and no topics.",
+  "component": "WritersBandSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "source",
+      "type": "string",
+      "label": "Data part",
+      "description": "e.g. writers. Leave empty to use the fields below.",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "kicker",
+      "type": "string",
+      "label": "Kicker",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "lede",
+      "type": "long",
+      "label": "Lede",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "image",
+      "type": "image",
+      "label": "Image",
+      "description": "",
+      "required": false
+    },
+    {
+      "name": "imageAlt",
+      "type": "string",
+      "label": "Image alt",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "pageHero",
+      "type": "boolean",
+      "label": "Page hero",
+      "description": "Use as the page's opening band",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "stripe",
+      "type": "boolean",
+      "label": "Stripe",
+      "description": "Rainbow stripe below",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "cta",
+      "type": "object",
+      "label": "Button",
+      "description": "Label and path",
+      "required": false,
+      "fields": [
+        {
+          "name": "label",
+          "type": "string",
+          "label": "Label"
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "label": "Path"
+        }
+      ]
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "issue-feature",
+  "displayName": "Issue feature",
+  "description": "Cover, intro, contents and buy buttons for one issue.",
+  "component": "IssueFeatureSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "source",
+      "type": "string",
+      "label": "Data part",
+      "description": "Part of the linked dataset with slug, kicker and lede, e.g. latest",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

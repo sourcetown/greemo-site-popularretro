@@ -1,0 +1,57 @@
+{
+  "name": "say-hello",
+  "displayName": "Say hello",
+  "description": "Dark band with the general email and social links.",
+  "component": "SayHelloSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "source",
+      "type": "string",
+      "label": "Data part",
+      "description": "Part of the linked dataset with email and socials, e.g. contact",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "kicker",
+      "type": "string",
+      "label": "Kicker",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "text",
+      "type": "string",
+      "label": "Text",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "followLabel",
+      "type": "string",
+      "label": "Follow label",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

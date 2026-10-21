@@ -1,0 +1,6 @@
+{
+  "name": "List page",
+  "kind": "list",
+  "header": "header",
+  "footer": "footer"
+}

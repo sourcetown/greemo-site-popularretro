@@ -1,0 +1,6 @@
+{
+  "name": "Detail page",
+  "kind": "detail",
+  "header": "header",
+  "footer": "footer"
+}

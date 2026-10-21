@@ -1,0 +1,10 @@
+{
+  "kind": "list",
+  "source": {
+    "type": "json",
+    "path": "./sections.json"
+  },
+  "schema": {
+    "fields": []
+  }
+}

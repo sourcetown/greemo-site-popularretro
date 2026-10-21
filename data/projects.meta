@@ -1,0 +1,10 @@
+{
+  "kind": "list",
+  "source": {
+    "type": "json",
+    "path": "./projects.json"
+  },
+  "schema": {
+    "fields": []
+  }
+}

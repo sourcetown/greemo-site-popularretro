@@ -1,0 +1,33 @@
+{
+  "name": "issue-previews",
+  "displayName": "Issue previews",
+  "description": "Page spread placeholders, shown when the issue has previews.",
+  "component": "IssuePreviewsSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "kicker",
+      "type": "string",
+      "label": "Kicker",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "text",
+      "type": "string",
+      "label": "Text",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    }
+  ]
+}

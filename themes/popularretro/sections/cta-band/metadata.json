@@ -1,0 +1,44 @@
+{
+  "name": "cta-band",
+  "displayName": "CTA band",
+  "description": "Centred red call-to-action band.",
+  "component": "CtaBandSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "lede",
+      "type": "string",
+      "label": "Lede",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "cta",
+      "type": "object",
+      "label": "Button",
+      "description": "Label and path",
+      "required": false,
+      "fields": [
+        {
+          "name": "label",
+          "type": "string",
+          "label": "Label"
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "label": "Path"
+        }
+      ]
+    }
+  ]
+}

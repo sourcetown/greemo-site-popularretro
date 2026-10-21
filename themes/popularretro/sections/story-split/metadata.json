@@ -1,0 +1,72 @@
+{
+  "name": "story-split",
+  "displayName": "Story split",
+  "description": "Markdown story beside a panel with topics and a second markdown note.",
+  "component": "StorySplitSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "kicker",
+      "type": "string",
+      "label": "Kicker",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "body",
+      "type": "long",
+      "label": "Body",
+      "description": "Markdown",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "note",
+      "type": "string",
+      "label": "Footnote",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "topicsTitle",
+      "type": "string",
+      "label": "Topics title",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "topics",
+      "type": "array",
+      "label": "Topics",
+      "description": "",
+      "required": false
+    },
+    {
+      "name": "asideTitle",
+      "type": "string",
+      "label": "Panel title",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "asideBody",
+      "type": "long",
+      "label": "Panel body",
+      "description": "Markdown",
+      "required": false,
+      "canLinkDataset": true
+    }
+  ]
+}

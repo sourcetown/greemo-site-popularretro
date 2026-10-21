@@ -1,0 +1,75 @@
+{
+  "title": "Popular Retro",
+  "description": "Popular Retro Magazine: where old is always fashionable",
+  "keywords": [],
+  "author": "",
+  "domain": "",
+  "siteUrl": "",
+  "favicon": "/media/favicons/favicon-32x32.png",
+  "favicons": {
+    "svg": "",
+    "default": "/media/favicons/favicon-32x32.png",
+    "appleTouchIcon": "/media/favicons/apple-touch-icon.png",
+    "androidChrome192": "/media/favicons/android-chrome-192x192.png",
+    "androidChrome512": "/media/favicons/android-chrome-512x512.png",
+    "favicon16": "/media/favicons/favicon-16x16.png",
+    "favicon32": "/media/favicons/favicon-32x32.png"
+  },
+  "theme": {
+    "name": "popularretro",
+    "primaryColor": "#3b82f6",
+    "secondaryColor": "#3b82f6",
+    "backgroundColor": "#ffffff",
+    "textColor": "#111827",
+    "fontFamily": "system-ui, sans-serif",
+    "googleFont": "",
+    "googleFontWeights": [],
+    "header": "components/Header.vue",
+    "footer": "components/Footer.vue"
+  },
+  "social": [],
+  "deployment": {
+    "type": "git",
+    "custom": false,
+    "local": {
+      "outputPath": "sites/popularretro/dist"
+    },
+    "git": {
+      "enabled": true,
+      "repoUrl": "https://github.com/sourcetown/greemo-site-popularretro.git",
+      "branch": "main",
+      "buildBranch": "gh-pages",
+      "remote": "origin",
+      "autoCommit": false,
+      "commitMessage": "Update {{filename}}"
+    },
+    "s3": {
+      "bucket": "greemo-popularretro",
+      "region": "eu-west-2",
+      "accessKeyId": "",
+      "secretAccessKey": ""
+    },
+    "ssh": {
+      "host": "",
+      "username": "",
+      "port": 22,
+      "privateKey": "",
+      "password": "",
+      "remotePath": ""
+    },
+    "cloudflare": {
+      "hostname": ""
+    },
+    "dataApi": {
+      "publicBase": ""
+    }
+  },
+  "media": {
+    "storage": "s3"
+  },
+  "variables": [],
+  "devServerPort": 7014,
+  "forms": {
+    "enabled": true
+  }
+}

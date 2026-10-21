@@ -1,0 +1,32 @@
+{
+  "name": "ticker",
+  "displayName": "Ticker",
+  "description": "Scrolling strip of topic words.",
+  "component": "TickerSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "source",
+      "type": "string",
+      "label": "Data part",
+      "description": "Part of the linked dataset holding the words, e.g. ticker",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "words",
+      "type": "array",
+      "label": "Words",
+      "description": "Used when no dataset is linked",
+      "required": false
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

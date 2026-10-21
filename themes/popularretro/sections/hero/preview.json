@@ -1,0 +1,11 @@
+{
+  "__dataset__": "sections",
+  "source": "hero",
+  "primaryCta": {
+    "label": "See the latest issue"
+  },
+  "secondaryCta": {
+    "label": "All issues",
+    "path": "/issues"
+  }
+}

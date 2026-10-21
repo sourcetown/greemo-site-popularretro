@@ -1,0 +1,64 @@
+{
+  "name": "page-hero",
+  "displayName": "Page hero",
+  "description": "Dark page opening band. With an image it is a split layout and the lede is markdown.",
+  "component": "PageHeroSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "kicker",
+      "type": "string",
+      "label": "Kicker",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "accent",
+      "type": "string",
+      "label": "Accent",
+      "description": "Red words after the title",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "lede",
+      "type": "long",
+      "label": "Lede",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "image",
+      "type": "image",
+      "label": "Image",
+      "description": "",
+      "required": false
+    },
+    {
+      "name": "imageAlt",
+      "type": "string",
+      "label": "Image alt",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "stripe",
+      "type": "boolean",
+      "label": "Stripe",
+      "description": "Rainbow stripe below",
+      "required": false,
+      "canLinkDataset": true
+    }
+  ]
+}

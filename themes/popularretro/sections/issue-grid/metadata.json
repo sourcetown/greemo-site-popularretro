@@ -1,0 +1,41 @@
+{
+  "name": "issue-grid",
+  "displayName": "Issue grid",
+  "description": "Heading and a row of issue cards picked by slug, with a button.",
+  "component": "IssueGridSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "source",
+      "type": "string",
+      "label": "Data part",
+      "description": "e.g. backIssues (kicker, title, text, issues)",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "buttonLabel",
+      "type": "string",
+      "label": "Button label",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "buttonPath",
+      "type": "string",
+      "label": "Button link",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

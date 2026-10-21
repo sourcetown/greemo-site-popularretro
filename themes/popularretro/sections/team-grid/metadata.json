@@ -1,0 +1,65 @@
+{
+  "name": "team-grid",
+  "displayName": "Team grid",
+  "description": "Heading and a grid of people (photo placeholder, role, name, bio).",
+  "component": "TeamGridSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "kicker",
+      "type": "string",
+      "label": "Kicker",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "text",
+      "type": "string",
+      "label": "Text",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "gap",
+      "type": "string",
+      "label": "Placeholder",
+      "description": "Shown after the text",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "people",
+      "type": "array",
+      "label": "People",
+      "description": "Items with name, role and optional bio",
+      "required": false,
+      "fields": [
+        {
+          "name": "name",
+          "type": "string",
+          "label": "Name"
+        },
+        {
+          "name": "role",
+          "type": "string",
+          "label": "Role"
+        },
+        {
+          "name": "bio",
+          "type": "long",
+          "label": "Bio"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "issue-quality",
+  "displayName": "Print quality",
+  "description": "Print quality panels, shown for print issues.",
+  "component": "IssueQualitySection",
+  "category": "content",
+  "props": [
+    {
+      "name": "kicker",
+      "type": "string",
+      "label": "Kicker",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "items",
+      "type": "array",
+      "label": "Items",
+      "description": "big, title, text",
+      "required": false,
+      "fields": [
+        {
+          "name": "big",
+          "type": "string",
+          "label": "Big"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "label": "Title"
+        },
+        {
+          "name": "text",
+          "type": "long",
+          "label": "Text"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "popularretro",
+  "description": "Theme installed from /Users/janvalo/Projects/sourcetown/website-popularretro",
+  "engine": "site",
+  "header": "components/Header.vue",
+  "footer": "components/Footer.vue",
+  "style": "theme.css"
+}

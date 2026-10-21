@@ -1,0 +1,243 @@
+{
+  "v2-issue-1": {
+    "slug": "v2-issue-1",
+    "group": "print",
+    "title": "Volume 2, Issue 1",
+    "kicker": "Latest · June 2021",
+    "date": "June 2021",
+    "headline": [
+      "New team,",
+      "new look!"
+    ],
+    "cover": "/media/images/covers/v2-issue-1.jpg",
+    "summary": "ZX81 at 40, the Philips CD-i, The REAL Ghost Busters, Airwolf and a Psytronik pull-out poster.",
+    "intro": "For the first time, Popular Retro is available in print. A massive retrospective of the Philips CD-i, everything you needed to know (and more!) about this obscure system, and the Sinclair ZX81 turns 40.",
+    "body": [
+      "We have an exclusive interview with Kenz of Psytronik Software, and go old school with an A3 Psytronik pull-out poster! The team go Ghost Busting with classic toys, we look at low budget horror movies from the 80s and watch the paint peel in Retro in decay."
+    ],
+    "facts": [
+      "56 pages",
+      "Print and digital",
+      "A3 pull-out poster"
+    ],
+    "pages": 56,
+    "contents": [
+      "ZX81: a computer for the masses",
+      "Time capsule",
+      "TV: Airwolf",
+      "THEVIC20: winners!",
+      "Great moments in computing",
+      "Valley of Rains review",
+      "Essential vampire comics",
+      "Retro in decay",
+      "Toys: The REAL Ghost Busters",
+      "B-movie review: Evil Spawn",
+      "Music: Brothers in Arms",
+      "Psytronik interview, including pull-out poster",
+      "Philips CD-i special feature",
+      "Win a THEC64 from Retro Games Ltd",
+      "PanGEMic game review"
+    ],
+    "editorNote": {
+      "quote": "A journey to our love of the 80s and 70s as we look at the early days of home computing, starting of course with the ZX81. A machine which has now turned 40!",
+      "body": [
+        "The popular Great Moments in Computing cartoon, formerly published in Computer Shopper, finds a new home in Popular Retro. We talk to Psytronik Software in an exclusive interview, review the classic ZX Spectrum game Valley of Rains, and sink our teeth into the 1987 B-movie Evil Spawn.",
+        "Plus the chance to win a THEC64 computer from Retro Games Ltd."
+      ]
+    },
+    "contributors": "Darren Randle (Editor), Darren Branagh, Shaun Bebbington, Luis Mota, Chris Thacker and Dr. Chris.",
+    "print": true,
+    "previews": [
+      "Philips CD-i feature",
+      "ZX81 at 40",
+      "The REAL Ghost Busters"
+    ],
+    "buy": [
+      {
+        "label": "Buy the print edition",
+        "url": "https://www.newsstand.co.uk/4-computers-and-gaming-magazines/30483-subscribe-to-popular-retro-magazine-subscription.aspx",
+        "primary": true
+      },
+      {
+        "label": "Digital edition",
+        "url": "https://play.google.com/store/books/details/Darren_Randle_Popular_Retro_Volume_2_Issue_1?id=KjQyEAAAQBAJ"
+      }
+    ],
+    "gaps": [
+      "print price",
+      "digital price",
+      "still in stock?"
+    ]
+  },
+  "special-edition-1": {
+    "slug": "special-edition-1",
+    "group": "specials",
+    "title": "Special Edition #1",
+    "kicker": "15 February 2021 · 136 pages",
+    "date": "15 February 2021",
+    "headline": [
+      "Special",
+      "Edition #1"
+    ],
+    "cover": "/media/images/covers/special-1.jpg",
+    "summary": "Collector's hardback with the best content from the first five issues, from THEC64 to ice lollies and Top Trumps.",
+    "intro": "Select cuts of issues one to four of Popular Retro plus issue five, in one beautiful hardback book.",
+    "body": [
+      "This collector's hardback special of the much-loved magazine Popular Retro contains the best content from the first five issues. Extensively looking at THEC64, THEC64 Mini and THEVIC20 computers, it also contains exclusive interviews with legends of the gaming industry and features a wide range of articles about everything retro, from ice lollies to Top Trumps!",
+      "Whether you're a recent convert to classic gaming, an 8-bit fan from back in the day, or simply think that nostalgia's not what it used to be, this hardback will make a great addition to your bookshelf!"
+    ],
+    "facts": [
+      "Collector's hardback",
+      "136 pages",
+      "ISBN 978-1789824780"
+    ],
+    "pages": 136,
+    "buy": [
+      {
+        "label": "Amazon UK",
+        "url": "https://www.amazon.co.uk/dp/1789824788",
+        "primary": true
+      }
+    ],
+    "gaps": [
+      "Amazon lists it as unavailable. Still on sale?",
+      "price"
+    ]
+  },
+  "special-edition-2": {
+    "slug": "special-edition-2",
+    "group": "specials",
+    "title": "Special Edition #2",
+    "kicker": "22 February 2022 · 54 pages",
+    "date": "22 February 2022",
+    "headline": [
+      "Special",
+      "Edition #2"
+    ],
+    "cover": null,
+    "summary": "Gaming, toys, comics, music, film and culture.",
+    "intro": "Gaming, toys, comics, music, film and culture.",
+    "body": [],
+    "facts": [
+      "54 pages",
+      "ISBN-10 178982933X"
+    ],
+    "pages": 54,
+    "buy": [],
+    "gaps": [
+      "cover, description and buy link from Jan"
+    ]
+  },
+  "issue-1": {
+    "slug": "issue-1",
+    "group": "digital",
+    "title": "Issue One",
+    "kicker": "Winter 2018",
+    "date": "Winter 2018",
+    "headline": [
+      "Issue",
+      "One"
+    ],
+    "cover": "/media/images/covers/issue-1.jpg",
+    "summary": "Getting hands on and looking at the new THEC64 Mini.",
+    "intro": "Getting hands on and looking at the new THEC64 Mini.",
+    "body": [],
+    "facts": [
+      "Free digital edition"
+    ],
+    "buy": [],
+    "gaps": [
+      "PDF download, if it returns"
+    ]
+  },
+  "issue-2": {
+    "slug": "issue-2",
+    "group": "digital",
+    "title": "Issue Two",
+    "kicker": "Spring 2019",
+    "date": "Spring 2019",
+    "headline": [
+      "Issue",
+      "Two"
+    ],
+    "cover": "/media/images/covers/issue-2.jpg",
+    "summary": "Digging deep into the world of hand held consoles from yesteryear.",
+    "intro": "Digging deep into the world of hand held consoles from yesteryear.",
+    "body": [],
+    "facts": [
+      "Free digital edition"
+    ],
+    "buy": [],
+    "gaps": [
+      "PDF download, if it returns"
+    ]
+  },
+  "issue-3": {
+    "slug": "issue-3",
+    "group": "digital",
+    "title": "Issue Three",
+    "kicker": "Summer / Autumn 2019",
+    "date": "Summer / Autumn 2019",
+    "headline": [
+      "Issue",
+      "Three"
+    ],
+    "cover": "/media/images/covers/issue-3.jpg",
+    "summary": "Melting moments: a tasty look at the juicy frozen gems we loved as kids!",
+    "intro": "Melting moments: a tasty look at the juicy frozen gems we loved as kids!",
+    "body": [],
+    "facts": [
+      "Free digital edition"
+    ],
+    "buy": [],
+    "gaps": [
+      "PDF download, if it returns"
+    ]
+  },
+  "issue-4": {
+    "slug": "issue-4",
+    "group": "digital",
+    "title": "Issue Four",
+    "kicker": "Winter 2019",
+    "date": "Winter 2019",
+    "headline": [
+      "Issue",
+      "Four"
+    ],
+    "cover": "/media/images/covers/issue-4.jpg",
+    "summary": "A new look, and the start of the fresh new changes for Popular Retro.",
+    "intro": "A new look, and the start of the fresh new changes for Popular Retro.",
+    "body": [],
+    "facts": [
+      "Free digital edition"
+    ],
+    "buy": [],
+    "gaps": [
+      "PDF download, if it returns"
+    ]
+  },
+  "issue-5": {
+    "slug": "issue-5",
+    "group": "digital",
+    "title": "Issue Five",
+    "kicker": "October 2020",
+    "date": "October 2020",
+    "headline": [
+      "Issue",
+      "Five"
+    ],
+    "cover": "/media/images/covers/issue-5.jpg",
+    "summary": "An exclusive first look at THEVIC20 from Retro Games Limited, plus an interview with Imagine's Eugene Evans.",
+    "intro": "We give an exclusive first look at the new THEVIC20 machine from Retro Games Limited. We've another exclusive, an interview with Imagine's Eugene Evans.",
+    "body": [
+      "Also, a retrospective on the original VIC20 and many other retro gaming articles."
+    ],
+    "facts": [
+      "Free digital edition"
+    ],
+    "buy": [],
+    "gaps": [
+      "PDF download, if it returns"
+    ]
+  }
+}

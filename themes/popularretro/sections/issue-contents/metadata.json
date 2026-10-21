@@ -1,0 +1,25 @@
+{
+  "name": "issue-contents",
+  "displayName": "Issue contents",
+  "description": "Contents list beside the editor's note or summary and contributors, for the issue on a detail page.",
+  "component": "IssueContentsSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "kicker",
+      "type": "string",
+      "label": "Kicker",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    }
+  ]
+}

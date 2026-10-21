@@ -1,0 +1,71 @@
+{
+  "name": "hero",
+  "displayName": "Hero",
+  "description": "Dark opening band: kicker, two-part heading, lede, buttons and two fanned covers with the Now in print sticker.",
+  "component": "HeroSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "source",
+      "type": "string",
+      "label": "Data part",
+      "description": "Part of the linked dataset, e.g. hero",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "primaryCta",
+      "type": "object",
+      "label": "Primary button",
+      "description": "Label and path. Without a path it links to the latest issue.",
+      "required": false,
+      "fields": [
+        {
+          "name": "label",
+          "type": "string",
+          "label": "Label"
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "label": "Path"
+        }
+      ]
+    },
+    {
+      "name": "secondaryCta",
+      "type": "object",
+      "label": "Secondary button",
+      "description": "Label and path",
+      "required": false,
+      "fields": [
+        {
+          "name": "label",
+          "type": "string",
+          "label": "Label"
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "label": "Path"
+        }
+      ]
+    },
+    {
+      "name": "latest",
+      "type": "string",
+      "label": "Latest",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

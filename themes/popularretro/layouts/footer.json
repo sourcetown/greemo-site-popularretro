@@ -1,0 +1,5 @@
+{
+  "name": "Footer",
+  "kind": "footer",
+  "template": "components/Footer.vue"
+}

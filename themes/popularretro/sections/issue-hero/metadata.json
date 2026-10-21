@@ -1,0 +1,8 @@
+{
+  "name": "issue-hero",
+  "displayName": "Issue hero",
+  "description": "Breadcrumbs, title, intro, facts, buy buttons and cover for the issue on a detail page.",
+  "component": "IssueHeroSection",
+  "category": "content",
+  "props": []
+}

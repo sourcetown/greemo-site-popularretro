@@ -1,0 +1,33 @@
+{
+  "name": "special-band",
+  "displayName": "Special edition band",
+  "description": "Dark band promoting a special edition, with its cover.",
+  "component": "SpecialBandSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "source",
+      "type": "string",
+      "label": "Data part",
+      "description": "e.g. special",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "buttonLabel",
+      "type": "string",
+      "label": "Button label",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

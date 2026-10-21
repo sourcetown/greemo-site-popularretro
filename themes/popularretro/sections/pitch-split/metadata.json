@@ -1,0 +1,65 @@
+{
+  "name": "pitch-split",
+  "displayName": "Pitch split",
+  "description": "What we're looking for (topic list, rule panel, note) beside the pitch form.",
+  "component": "PitchSplitSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "source",
+      "type": "string",
+      "label": "Data part",
+      "description": "Part of the linked dataset with pitchTopics, e.g. contact",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "kicker",
+      "type": "string",
+      "label": "Kicker",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "ruleKicker",
+      "type": "string",
+      "label": "Rule label",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "rule",
+      "type": "string",
+      "label": "Rule",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "text",
+      "type": "long",
+      "label": "Text",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

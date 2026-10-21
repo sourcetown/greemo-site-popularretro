@@ -1,0 +1,33 @@
+{
+  "name": "newsletter",
+  "displayName": "Newsletter",
+  "description": "Newsletter sign-up box (disabled until an endpoint is set).",
+  "component": "NewsletterSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "source",
+      "type": "string",
+      "label": "Data part",
+      "description": "e.g. newsletter",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "signMeUp",
+      "type": "string",
+      "label": "Sign me up",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

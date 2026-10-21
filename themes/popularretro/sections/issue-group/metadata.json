@@ -1,0 +1,17 @@
+{
+  "name": "issue-group",
+  "displayName": "Issue group",
+  "description": "One archive group (print, specials or digital from utils/issues.js) with its issue cards.",
+  "component": "IssueGroupSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "group",
+      "type": "string",
+      "label": "Group",
+      "description": "print, specials or digital",
+      "required": false,
+      "canLinkDataset": true
+    }
+  ]
+}
