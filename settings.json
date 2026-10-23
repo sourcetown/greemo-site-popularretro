@@ -3,8 +3,8 @@
   "description": "Popular Retro Magazine: where old is always fashionable",
   "keywords": [],
   "author": "",
-  "domain": "",
-  "siteUrl": "",
+  "domain": "popularretro.greemo.app",
+  "siteUrl": "https://popularretro.greemo.app",
   "favicon": "/media/favicons/favicon-32x32.png",
   "favicons": {
     "svg": "",
@@ -38,6 +38,7 @@
       "enabled": true,
       "repoUrl": "https://github.com/sourcetown/greemo-site-popularretro.git",
       "branch": "main",
+      "stagingBranch": "staging",
       "buildBranch": "gh-pages",
       "remote": "origin",
       "autoCommit": false,
@@ -57,8 +58,14 @@
       "password": "",
       "remotePath": ""
     },
+    "domains": {
+      "test": "staging-popularretro.greemo.app",
+      "live": "popularretro.greemo.app",
+      "username": "preview",
+      "password": "BBhe4-KroUaU1KCNIhLdTDOm"
+    },
     "cloudflare": {
-      "hostname": ""
+      "hostname": "popularretro.greemo.app"
     },
     "dataApi": {
       "publicBase": ""

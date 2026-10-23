@@ -21,5 +21,5 @@ jobs:
             echo "AWS deploy secrets are not on this repository yet."
             exit 0
           fi
-          aws s3 sync . "s3://$BUCKET" --delete --exclude ".git/*" --exclude ".github/*"
+          aws s3 sync . "s3://$BUCKET" --delete --exclude ".git/*" --exclude ".github/*" --exclude "preview/*" --exclude "media/*"
           echo "Published to s3://$BUCKET"
